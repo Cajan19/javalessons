@@ -51,4 +51,19 @@ class FridayTaskTest {
         assertTrue(result);
     }
 
+    @Test
+    public void passwordContainsUpperLetter() {
+
+//        given
+
+        String password = "HGhgdsfSDJHBD";
+
+//        when
+
+        boolean result = FridayTask.passwordIsSecureOrNot(password);
+
+//        then
+
+        assertEquals(true, result);
+    }
 }

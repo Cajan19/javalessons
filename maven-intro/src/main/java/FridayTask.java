@@ -21,7 +21,14 @@ public class FridayTask {
             return false;
         }
 
-    return true;
+//        enthält nur kleine/große Buchstaben
+
+        boolean pwContainsSmallAndCapitalLetters = !enterPassword.equals(enterPassword.toLowerCase()) && !enterPassword.equals(enterPassword.toUpperCase());
+        return pwContainsSmallAndCapitalLetters;
+
+
+
+
     } 
 }
 
