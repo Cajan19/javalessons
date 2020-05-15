@@ -52,7 +52,7 @@ class FridayTaskTest {
     }
 
     @Test
-    public void passwordContainsUpperLetter() {
+    public void passwordContainsDigitAndUpperAndLowerLetter() {
 
 //        given
 
