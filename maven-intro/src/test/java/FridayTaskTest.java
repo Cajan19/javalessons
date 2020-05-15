@@ -56,7 +56,7 @@ class FridayTaskTest {
 
 //        given
 
-        String password = "HGhgdsfSDJHBD";
+        String password = "HGhgds7fSDJHBD";
 
 //        when
 
