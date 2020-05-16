@@ -35,24 +35,11 @@ class FridayTaskTest {
         assertFalse(result);
     }
 
-    @Test
-    public void passwordMeetsRequirements() {
 
-//        given
 
-        String password = "kdsjhfksajhfkajsdfh777";
-
-//        when
-
-        boolean result = FridayTask.passwordIsSecureOrNot(password);
-
-//        then
-
-        assertTrue(result);
-    }
 
     @Test
-    public void passwordContainsDigitAndUpperAndLowerLetter() {
+    public void passwordContainsDigitAndUpperAndLowerCases() {
 
 //        given
 

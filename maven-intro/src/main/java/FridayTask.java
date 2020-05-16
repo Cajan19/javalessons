@@ -3,11 +3,12 @@ public class FridayTask {
 
     public static boolean passwordIsSecureOrNot(String enterPassword) {
 
+
+
 //        enthält mindestens 8 Zeichen
         int passwordLength = enterPassword.length();
         if (passwordLength < 8) {
             return false;
-
 
         }
 
@@ -29,5 +30,16 @@ public class FridayTask {
 
 
     }
+
+
 }
+
+
+
+
+
+
+
+
+
 
